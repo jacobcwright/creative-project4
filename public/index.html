@@ -1,0 +1,37 @@
+<!DOCTYPE html >
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Success Journal</title>
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body id="index">
+    <div id="app">
+        <form id="login">
+            <div id="box">
+                <h1 id="title"><u>Success Journal</u></h1>
+                <h1 id="titleLogin">Login</h1>
+                <p v-if="error" class="error">{{error}}</p>
+                <input type="text" placeholder="Username" id="input" v-model="username">
+                </br>
+                <input type="password" placeholder="Password" id="inputPassword" v-model="password">
+                </br>
+                <button type="submit" id="btn" @click.prevent="login">Login</button>
+                <button type="submit" id="register" @click.prevent="register">Register</button>
+            </div>
+        </form>
+    </div>
+    <footer id="footer">
+        <img id="footerpic" src="img\github.png"><a href="https://github.com/jacobcwright/Daily_App"></a></img>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.2/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+.layout{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(50%, auto);
+    /* border: 1px solid; */
+    padding: 10px;
+}
+
+.paper{
+    background-color: rgb(248, 239, 204);
+}
+
+.darktheme {
+    background-color: rgb(59, 59, 59) !important;
+    background-color: rgb(59, 59, 59) !important;
+    color: white !important;
+ }
+
+#index {
+    background: url(../img/Sunrise\,_Kauai.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#login {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    -moz-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+    color: black;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255, .7);
+}
+
+#box {
+    position: relative;
+    margin: 0 auto;
+    padding: 20px 20px 20px;
+    width: 310px;
+    border-radius: 3px;
+    
+}
+
+#title {
+    align-content: center;
+    text-align: center;
+    color: rgb(202, 92, 2);
+}
+
+#input {
+    position: relative;
+    margin: 0 auto;
+    padding: 10px 10px 10px;
+    width: 93%;
+}
+
+#inputPassword {
+    position: relative;
+    margin: 0 auto;
+    padding: 10px 10px 10px;
+    width: 93%;
+    -webkit-text-security: circle;
+}
+
+#btn {
+    padding: 10px;
+    width: 100%
+}
+
+#register {
+    padding: 10px;
+    width: 100%
+}
+
+#titleLogin {
+    align-content: center;
+    text-align: center;
+}
+
+#quote {
+    text-align: center;
+
+}
+
+#footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:50px;
+    width:100%;
+    /* background:rgb(255, 255, 255, .7);;
+    color: black; */
+    text-align: center; 
+} 
+
+
+
+.section {
+    border: 1px dashed;
+    /* padding-right: 75px; */
+    padding-bottom: 25%;
+    padding-left: 10px;
+    padding-top: 10px;
+    /* background-image: url(../img/tree.png); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+#footerpic {
+    height: 30px;
+ }
+
+ #footer2 {
+     text-align: center;
+     text-decoration: italic;
+ }

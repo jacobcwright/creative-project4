@@ -1,0 +1,18 @@
+{
+  "name": "creative-project4",
+  "version": "1.0.0",
+  "description": "success journal & login",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jacob Wright",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.5",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.4.20"
+  }
+}
